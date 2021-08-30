@@ -1,0 +1,9 @@
+.Main-component{
+    text-align: center;
+    background-image: url("https://www.google.com/search?q=roman+empire+wallpaper&tbm=isch&ved=2ahUKEwi2pJ_LpdjyAhUGcxoKHaw9BmQQ2-cCegQIABAA&oq=roman+empire+wallpaper&gs_lcp=CgNpbWcQAzIHCCMQ7wMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCAAQsQMQQzoECAAQQ1D7EFjtG2DKHGgAcAB4AIABrgKIAYEQkgEFMi03LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=K5IsYfbiPIbmaaz7mKAG&bih=568&biw=1366#imgrc=jWWNuXJ43ByvuM");
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
