@@ -24,7 +24,7 @@ const Warriors =() =>{
                 </div>
                 </div>
                 </div>
-                        <div>
+                         <div>
                             <img alt="abc" className="img-fluid animated" src={rm1} width="950" height="850" />
                         </div>
             </div>

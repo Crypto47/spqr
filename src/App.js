@@ -1,35 +1,25 @@
-import React from 'react';
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import logo from './logo.svg';
+import './App.css';
 
-import Main from './Main';
-import  History  from './History';
-import Warriors from './Warriors';
-import Jobs from './Jobs'
-import  Connect from './Connect';
-import { Switch,Route, Redirect } from 'react-router-dom';
-import Navbar from './Navbar';
-import Footer from './Footer';
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
 
-const App =() =>{
-    return (
-   <>
-   
-    <Navbar />                    
-        <Switch>
-            <Route exact path="/" component={Main} />
-            <Route exact path="/History" component={History} />
-            <Route exact path="/Jobs" component={Jobs} />
-            <Route exact path="/Warriors" component={Warriors} />
-            <Route exact path="/Connect" component={    Connect } />
-
-            <Redirect to="/" /> 
-
-            
-            <Main />
-        </Switch>
-        <Footer />
-    </>
-    );
-};
 export default App;

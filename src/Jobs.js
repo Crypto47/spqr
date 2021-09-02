@@ -44,7 +44,7 @@ const Contact =() =>{
 <div class="card" >
   <img class="card-img-top" src={rm6} alt="Card image cap" />
   <div class="card-body">
-    <h5 class="card-title">Join the Architecture division</h5>
+    <h5 class="card-title">Join the Architecture Division</h5>
     <a href="#" class="btn btn-primary">Become a Professional Roman Architect</a>
   </div>
 </div>
